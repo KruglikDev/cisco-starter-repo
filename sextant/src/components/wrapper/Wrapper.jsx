@@ -7,6 +7,7 @@ const Wrapper = (props) => {
             <div className={'container_left'}>{props.left}</div>
             <div className={'container_right'}>{props.right}</div>
         </main>
+        <div className={'container_bottom'}>{props.bottom}</div>
     </div>
 }
 
