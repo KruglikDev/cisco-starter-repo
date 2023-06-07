@@ -1,13 +1,16 @@
 import './App.css';
 import Wrapper from "./components/wrapper/Wrapper";
 import Banner from "./components/Banner";
-import Ip4Data from "./components/ip-data/Ip4Data";
-import Ip6Data from "./components/ip-data/Ip6Data";
+import IpDisplay from "./components/ip-data/IpDisplay";
 
 function App() {
   return (
     <div className="App">
-        <Wrapper top={<Banner/>} left={<Ip4Data/>} right={<Ip6Data />}/>
+        <Wrapper
+            top={<Banner/>}
+            left={<IpDisplay url={'https://api.ipify.org?format=json'} version={'IPv4'}/>}
+            right={<IpDisplay url={'https://api64.ipify.org?format=json'} version={'IPv6'}/>}
+        />
     </div>
   );
 }
