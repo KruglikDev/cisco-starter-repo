@@ -1,8 +1,8 @@
 import './App.css';
-import Wrapper from "./components/wrapper/Wrapper";
+import Wrapper from "./components/Wrapper";
 import Banner from "./components/Banner";
-import IpDisplay from "./components/ip-data/IpDisplay";
-import Latency from "./components/latency/Latency";
+import IpDisplay from "./components/IpDisplay";
+import Latency from "./components/Latency";
 
 function App() {
   return (

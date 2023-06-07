@@ -1,0 +1,33 @@
+.container {
+    margin: 20px;
+    padding: 30px;
+    background: whitesmoke;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.87 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.container_top {
+    font-family: 'Optima', 'serif';
+    font-size: 42px;
+    font-weight: bold;
+    padding: 0;
+    border-bottom: 1px solid orangered;
+}
+
+.container_body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_right {
+    text-align: right;
+}
+
+.container_bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

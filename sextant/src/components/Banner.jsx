@@ -1,6 +1,6 @@
 const Banner = () => {
     return <header>
-        <h2>Sextant</h2>
+        <h1>Sextant</h1>
     </header>
 }
 
